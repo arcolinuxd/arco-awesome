@@ -1,26 +1,30 @@
 #!/bin/bash
 set -e
 ##################################################################################################################
+# Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
-# Website : https://www.erikdubois.be
-# Website	:	https://www.arcolinux.info
-# Website	:	https://www.arcolinux.com
-# Website	:	https://www.arcolinuxd.com
-# Website	:	https://www.arcolinuxforum.com
+# Website 	: 	http://www.erikdubois.be
+##################################################################################################################
 ##################################################################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
 
-echo "AUR - DESKTOP SPECIFIC APPLICATIONS "
 
-sh AUR-DS/install-gtk2-perl-v*.sh
+[ -d $HOME"/.fonts" ] || mkdir -p $HOME"/.fonts"
 
-sh AUR-DS/install-perl-linux-desktopfiles-v*.sh
 
-sh AUR-DS/install-xfce-slimlock-v*.sh
+echo "Copy fonts to .fonts"
+
+cp Personal/settings/fonts/* ~/.fonts/
+
+echo "Building new fonts into the cache files";
+echo "Depending on the number of fonts, this may take a while..."
+fc-cache -fv ~/.fonts
+
+
 
 echo "################################################################"
-echo "####       Software from AUR-DS folder installed          ######"
+echo "#########   Fonts have been copied and loaded   ################"
 echo "################################################################"
