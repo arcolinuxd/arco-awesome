@@ -23,6 +23,8 @@ sh AUR-DS/install-xfce-slimlock-v*.sh
 
 sh AUR-DS/install-urxvt-resize-font-git-v*.sh
 
+sh AUR-DS/install-python-pywal-v*.sh
+
 echo "################################################################"
 echo "####       Software from AUR-DS folder installed          ######"
 echo "################################################################"
