@@ -20,6 +20,7 @@ echo
 
 sudo pacman -S arcolinux-arc-themes-git --noconfirm --needed
 sudo pacman -S arcolinux-awesome-git --noconfirm --needed
+sudo pacman -S arcolinux-applications-git --noconfirm --needed
 #sudo pacman -S arcolinux-common-git --noconfirm --needed
 sudo pacman -S arcolinux-config-git --noconfirm --needed
 #sudo pacman -S arcolinux-conky-collection-git --noconfirm --needed
