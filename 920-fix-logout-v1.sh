@@ -17,5 +17,5 @@ echo "Setting pkill awesome to log out with arcolinux-oblogout"
 sudo sed -i 's/logout = openbox --exit/logout = pkill awesome/g' /etc/oblogout.conf
 
 echo "################################################################"
-echo "####                  ICONS ARE NOW APPLIED               ######"
+echo "####                       FIX   APPLIED                  ######"
 echo "################################################################"
