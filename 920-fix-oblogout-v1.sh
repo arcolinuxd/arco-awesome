@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e
 ##################################################################################################################
-# Author 	: 	Erik Dubois
-# Website : https://www.erikdubois.be
+# Author	:	Erik Dubois
+# Website	:	https://www.erikdubois.be
 # Website	:	https://www.arcolinux.info
 # Website	:	https://www.arcolinux.com
 # Website	:	https://www.arcolinuxd.com
@@ -13,9 +13,9 @@ set -e
 #
 ##################################################################################################################
 
-echo "Setting pkill awesome to log out with arcolinux-oblogout"
+echo "Change setting to be able to log out"
 sudo sed -i 's/logout = openbox --exit/logout = pkill awesome/g' /etc/oblogout.conf
 
 echo "################################################################"
-echo "####                       FIX   APPLIED                  ######"
+echo "####						 FIX   APPLIED                  ######"
 echo "################################################################"
