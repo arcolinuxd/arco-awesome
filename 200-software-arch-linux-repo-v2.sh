@@ -57,7 +57,7 @@ sudo pacman -S --noconfirm --needed ristretto
 echo "Installing category Internet"
 
 sudo pacman -S --noconfirm --needed chromium
-sudo pacman -S --noconfirm --needed filezilla
+#sudo pacman -S --noconfirm --needed filezilla
 sudo pacman -S --noconfirm --needed firefox
 #sudo pacman -S --noconfirm --needed hexchat
 sudo pacman -S --noconfirm --needed transmission-cli
@@ -91,9 +91,10 @@ echo "Installing category Other"
 
 echo "Installing category System"
 
+sudo pacman -S --noconfirm --needed arc-gtk-theme
 #sudo pacman -S --noconfirm --needed archey3
 sudo pacman -S --noconfirm --needed baobab
-sudo pacman -S --noconfirm --needed bleachbit
+#sudo pacman -S --noconfirm --needed bleachbit
 sudo pacman -S --noconfirm --needed curl
 sudo pacman -S --noconfirm --needed dconf-editor
 sudo pacman -S --noconfirm --needed dmidecode

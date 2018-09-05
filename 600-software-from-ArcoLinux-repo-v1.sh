@@ -65,6 +65,21 @@ echo "################################################################"
 echo
 
 echo "################################################################"
+echo "####     Software from ArcoLinux 3party Repository installed       ####"
+echo "################################################################"
+echo
+
+sudo pacman -S --noconfirm --needed discord
+sudo pacman -S --noconfirm --needed dropbox
+sudo pacman -S --noconfirm --needed insync
+sudo pacman -S --noconfirm --needed spotify
+
+echo "################################################################"
+echo "####     Software from ArcoLinux 3party Repository installed       ####"
+echo "################################################################"
+echo
+
+echo "################################################################"
 echo "Copying all files and folders from /etc/skel to ~"
 echo "################################################################"
 echo
@@ -75,6 +90,7 @@ echo "removing all folders and files unnecessary for this dekstop from .config"
 echo "################################################################"
 echo
 rm ~/.config/autostart/calamares.desktop
+rm ~/.config/compton.conf
 rm -rf ~/.config/volumeicon
 
 echo "################################################################"

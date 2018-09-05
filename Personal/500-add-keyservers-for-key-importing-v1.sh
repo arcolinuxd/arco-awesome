@@ -1,5 +1,5 @@
 #!/bin/bash
-#set -e
+set -e
 ##################################################################################################################
 # Author	:	Erik Dubois
 # Website	:	https://www.erikdubois.be
@@ -12,21 +12,14 @@
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
+[ -d $HOME"/.gnupg" ] || mkdir -p $HOME"/.gnupg"
 
+echo '
 
-[ -d $HOME"/.fonts" ] || mkdir -p $HOME"/.fonts"
-
-
-echo "Copy fonts to .fonts"
-
-cp Personal/settings/fonts/* ~/.fonts/
-
-echo "Building new fonts into the cache files";
-echo "Depending on the number of fonts, this may take a while..."
-fc-cache -fv ~/.fonts
-
-
+keyserver hkp://pool.sks-keyservers.net:80
+keyserver hkps://hkps.pool.sks-keyservers.net:443
+keyserver hkp://ipv4.pool.sks-keyservers.net:11371' | sudo tee --append ~/.gnupg/gpg.conf
 
 echo "################################################################"
-echo "#########   Fonts have been copied and loaded   ################"
+echo "###                  keyservers added                       ####"
 echo "################################################################"
