@@ -38,8 +38,8 @@ sudo pacman -S arcolinux-geany-git --noconfirm --needed
 sudo pacman -S arcolinux-lightdm-gtk-greeter --noconfirm --needed
 sudo pacman -S arcolinux-lightdm-gtk-greeter-settings --noconfirm --needed
 #sudo pacman -S arcolinux-local-git --noconfirm --needed
-sudo pacman -S arcolinux-neofetch-git --noconfirm --needed
 sudo pacman -S arcolinux-mirrorlist-git --noconfirm --needed
+sudo pacman -S arcolinux-neofetch-git --noconfirm --needed
 sudo pacman -S arcolinux-nitrogen-git --noconfirm --needed
 sudo pacman -S arcolinux-oblogout-awesome --noconfirm --needed
 #sudo pacman -S arcolinux-oblogout --noconfirm --needed
