@@ -1,5 +1,5 @@
 #!/bin/bash
-#set -e
+set -e
 ##################################################################################################################
 # Author	:	Erik Dubois
 # Website	:	https://www.erikdubois.be
@@ -65,6 +65,7 @@ sh AUR/install-downgrade-v*.sh
 sh AUR/install-inxi-v*.sh
 sh AUR/install-neofetch-v*.sh
 sh AUR/install-numix-circle-icon-theme-git-v*.sh
+sh AUR/install-oxy-neon-v*.sh
 sh AUR/install-pamac-aur-v*.sh
 sh AUR/install-paper-icon-theme-git-v*.sh
 sh AUR/install-papirus-icon-theme-git-v*.sh

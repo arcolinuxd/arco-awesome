@@ -23,7 +23,7 @@ sudo pacman -S --noconfirm --needed galculator
 sudo pacman -S --noconfirm --needed gnome-screenshot
 #sudo pacman -S --noconfirm --needed plank
 #sudo pacman -S --noconfirm --needed redshift
-sudo pacman -S --noconfirm --needed xfburn
+#sudo pacman -S --noconfirm --needed xfburn
 sudo pacman -S --noconfirm --needed variety
 #sudo pacman -S --noconfirm --needed
 
@@ -47,8 +47,8 @@ echo "Installing category Graphics"
 
 #sudo pacman -S --noconfirm --needed darktable
 sudo pacman -S --noconfirm --needed gimp
-sudo pacman -S --noconfirm --needed gnome-font-viewer
-sudo pacman -S --noconfirm --needed gpick
+#sudo pacman -S --noconfirm --needed gnome-font-viewer
+#sudo pacman -S --noconfirm --needed gpick
 sudo pacman -S --noconfirm --needed inkscape
 #sudo pacman -S --noconfirm --needed pinta
 sudo pacman -S --noconfirm --needed ristretto
@@ -68,7 +68,7 @@ echo "Installing category Multimedia"
 
 #sudo pacman -S --noconfirm --needed clementine
 #sudo pacman -S --noconfirm --needed deadbeef
-#sudo pacman -S --noconfirm --needed mpv
+sudo pacman -S --noconfirm --needed mpv
 #sudo pacman -S --noconfirm --needed openshot
 sudo pacman -S --noconfirm --needed pragha
 #sudo pacman -S --noconfirm --needed shotwell
@@ -141,6 +141,7 @@ sudo pacman -S --noconfirm --needed unclutter
 sudo pacman -S --noconfirm --needed rxvt-unicode
 sudo pacman -S --noconfirm --needed urxvt-perls
 sudo pacman -S --noconfirm --needed xdg-user-dirs
+sudo pacman -S --noconfirm --needed xorg-xkill
 sudo pacman -S --noconfirm --needed zenity
 #sudo pacman -S --noconfirm --needed
 
