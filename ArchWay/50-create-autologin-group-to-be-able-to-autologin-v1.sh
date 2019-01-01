@@ -15,12 +15,12 @@ set -e
 #
 ##################################################################################################################
 
-echo "Everywhere Breeze-snow as cursor"
-echo "Change cursor if you want"
+echo "Autologin system group is installed on ArcoLinux"
+echo "On Arch Linux we need to create it ourselves"
 
-sudo cp -r Personal/settings/default/index.theme /usr/share/icons/default/
-
+sudo groupadd -r autologin
 
 echo "################################################################"
-echo "####           TO SEE THE EFFECT YOU MUST LOG OFF         ######"
+echo "###                  Group has been created                 ####"
+echo "###        Now you can run script 800 to autologin          ####"
 echo "################################################################"
