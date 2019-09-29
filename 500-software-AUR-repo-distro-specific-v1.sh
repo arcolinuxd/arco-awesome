@@ -21,8 +21,6 @@ sh AUR-DS/install-gtk2-perl-v*.sh
 
 sh AUR-DS/install-perl-linux-desktopfiles-v*.sh
 
-sh AUR-DS/install-spotifywm-git-v*.sh
-
 sh AUR-DS/install-urxvt-resize-font-git-v*.sh
 
 sh AUR-DS/install-python-pywal-v*.sh
