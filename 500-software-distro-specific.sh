@@ -73,6 +73,7 @@ playerctl
 python-pywal
 rofi
 thunar
+variety
 volumeicon
 w3m
 urxvt-resize-font-git
@@ -102,13 +103,3 @@ echo "################################################################"
 echo "Software has been installed"
 echo "################################################################"
 echo;tput sgr0
-
-
-
-
-
-
-
-
-
-
