@@ -55,15 +55,32 @@ func_category() {
 func_category Additional-distro-specific
 
 list=(
+arandr
+awesome-terminal-fonts
+picom
 dmenu
+feh
+gmrun
+gtk2-perl
 gtk-engine-murrine
+gtop
+imagemagick
 lxappearance
 lxrandr
+nitroge
+perl-linux-desktopfiles
+playerctl
+python-pywal
+rofi
+thunar
+volumeicon
 w3m
+urxvt-resize-font-git
 xfce4-appfinder
 xfce4-notifyd
 xfce4-power-manager
 xfce4-screenshooter
+xfce4-settings
 xfce4-taskmanager
 xfce4-terminal
 hardcode-fixer-git
@@ -87,54 +104,11 @@ echo "################################################################"
 echo;tput sgr0
 
 
-sudo pacman -S xfce4-terminal --noconfirm --needed
 
-echo "Installing category Development"
 
-echo "Installing category Education"
 
-echo "Installing category Games"
 
-echo "Installing category Graphics"
 
-echo "Installing category Internet"
 
-echo "Installing category Multimedia"
 
-#sh AUR/install-mpd-ncmpcpp-v*.sh
 
-echo "Installing category Office"
-
-echo "Installing category Other"
-
-echo "Installing category System"
-
-sudo pacman -S arandr --noconfirm --needed
-sudo pacman -S awesome-terminal-fonts --noconfirm --needed
-sudo pacman -S picom  --noconfirm --needed
-sudo pacman -S dmenu  --noconfirm --needed
-sudo pacman -S feh --noconfirm --needed
-sudo pacman -S gmrun --noconfirm --needed
-sudo pacman -S gtop --noconfirm --needed
-sudo pacman -S imagemagick --noconfirm --needed
-sudo pacman -S lxappearance-gtk3 --noconfirm --needed
-sudo pacman -S lxrandr --noconfirm --needed
-sudo pacman -S nitrogen --noconfirm --needed
-sudo pacman -S playerctl --noconfirm --needed
-sudo pacman -S rofi --noconfirm --needed
-sudo pacman -S thunar --noconfirm --needed
-sudo pacman -S volumeicon  --noconfirm --needed
-sudo pacman -S w3m  --noconfirm --needed
-sudo pacman -S xfce4-appfinder --noconfirm --needed
-sudo pacman -S xfce4-power-manager --noconfirm --needed
-sudo pacman -S xfce4-screenshooter --noconfirm --needed
-#sudo pacman -S xfce4-settings --noconfirm --needed
-sudo pacman -S xfce4-taskmanager --noconfirm --needed
-
-sh AUR-DS/install-gtk2-perl-v*.sh
-
-sh AUR-DS/install-perl-linux-desktopfiles-v*.sh
-
-sh AUR-DS/install-urxvt-resize-font-git-v*.sh
-
-sh AUR-DS/install-python-pywal-v*.sh
