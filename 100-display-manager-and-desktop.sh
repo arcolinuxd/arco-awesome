@@ -53,6 +53,7 @@ arcolinux-wallpapers-git
 thunar
 thunar-archive-plugin
 thunar-volman
+xfce4-terminal
 arcolinux-xfce-git
 awesome
 vicious
