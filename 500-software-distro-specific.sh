@@ -67,7 +67,7 @@ gtop
 imagemagick
 lxappearance
 lxrandr
-nitroge
+nitrogen
 perl-linux-desktopfiles
 playerctl
 python-pywal
