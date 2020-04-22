@@ -56,22 +56,18 @@ func_category Additional-distro-specific
 
 list=(
 arandr
-awesome-terminal-fonts
 picom
 dmenu
 feh
 gmrun
 gtk2-perl
 gtk-engine-murrine
-gtop
 imagemagick
 lxappearance
 lxrandr
 nitrogen
-perl-linux-desktopfiles
 playerctl
 python-pywal
-rofi
 thunar
 variety
 volumeicon
