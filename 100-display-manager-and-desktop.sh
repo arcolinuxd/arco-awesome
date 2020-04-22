@@ -57,7 +57,7 @@ arcolinux-xfce-git
 awesome
 vicious
 arcolinux-awesome-git
-arcolinux-asesome-dconf-git
+arcolinux-awesome-dconf-git
 arcolinux-config-awesome-git
 )
 
