@@ -55,16 +55,11 @@ func_category() {
 func_category Arcolinux-General
 
 list=(
-arcolinux-arc-themes-nico-git
 arcolinux-bin-git
 arcolinux-hblock-git
-arcolinux-local-xfce4-git
-arcolinux-nitrogen-git
-arcolinux-qt5-git
 arcolinux-root-git
 arcolinux-termite-themes-git
 arcolinux-variety-git
-arcolinux-zsh-git
 )
 
 count=0
