@@ -69,7 +69,6 @@ nitrogen
 playerctl
 python-pywal
 thunar
-variety
 volumeicon
 w3m
 urxvt-resize-font-git
