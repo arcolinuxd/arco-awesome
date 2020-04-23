@@ -68,7 +68,6 @@ lxrandr
 nitrogen
 playerctl
 python-pywal
-thunar
 volumeicon
 w3m
 urxvt-resize-font-git
