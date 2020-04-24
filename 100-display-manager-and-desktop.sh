@@ -63,6 +63,7 @@ arcolinux-awesome-git
 arcolinux-awesome-dconf-git
 arcolinux-config-awesome-git
 arcolinux-logout-git
+feh
 )
 
 count=0
