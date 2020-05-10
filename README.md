@@ -1,10 +1,6 @@
 # ArcoLinuxD Awesome WM
 
-All credits to Nick Petrov for making this configuration.
-
-Do you want to contribute and share your knowledge, contact us.
-
-# Start by installing the latest ArcoLinuxD installation
+# Start by installing the latest ArcoLinuxD iso
 
 Download at https://arcolinux.info and burn to usb
 
