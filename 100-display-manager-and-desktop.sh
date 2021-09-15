@@ -59,7 +59,7 @@ awesome
 vicious
 arcolinux-awesome-git
 arcolinux-awesome-dconf-git
-arcolinux-config-awesome-git
+arcolinux-config-all-desktops-git
 arcolinux-logout-git
 feh
 )
