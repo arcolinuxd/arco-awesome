@@ -58,7 +58,7 @@ arcolinux-local-xfce4-git
 awesome
 vicious
 arcolinux-awesome-git
-arcolinux-awesome-dconf-git
+arcolinux-dconf-all-desktops-git
 arcolinux-config-all-desktops-git
 arcolinux-logout-git
 feh
