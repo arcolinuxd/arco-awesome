@@ -60,7 +60,7 @@ vicious
 arcolinux-awesome-git
 arcolinux-dconf-all-desktops-git
 arcolinux-config-all-desktops-git
-arcolinux-logout-git
+archlinux-logout-git
 feh
 )
 
